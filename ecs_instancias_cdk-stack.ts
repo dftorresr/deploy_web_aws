@@ -20,7 +20,7 @@ export class EcsInstanciasCdkStack extends cdk.Stack {
         isDefault: true
       });
 	  
-	  const role = iam.Role.fromRoleArn(this, 'Role', 'arn:aws:iam::189725330503:role/voclabs', {
+	  const role = iam.Role.fromRoleArn(this, 'Role', 'arn:aws:iam::xxxxxx', {
 	// Set 'mutable' to 'false' to use the role as-is and prevent adding new
 	// policies to it. The default is 'true', which means the role may be
 	// modified as part of the deployment.
